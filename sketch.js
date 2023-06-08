@@ -158,8 +158,13 @@ function draw() {
 }
 
 function reset(){
-  
-
+ gameState = PLAY;  
+ gameOver.visible = false;
+  restart.visible = false;
+  trex.changeAnimation("running", trex_running);
+  obstaclesGroup.destroyEach();
+  cloundsGroup.destroyEach();
+  score = 0;
 }
 
 
