@@ -163,7 +163,7 @@ function reset(){
   restart.visible = false;
   trex.changeAnimation("running", trex_running);
   obstaclesGroup.destroyEach();
-  cloundsGroup.destroyEach();
+  cloudsGroup.destroyEach();
   score = 0;
 }
 
